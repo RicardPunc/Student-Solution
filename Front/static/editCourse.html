@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student API</title>
+
+  <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <div class="editcourse">
+    <label class="windowheader">Edit Course</label>
+    <div class="row">
+      <label>Code</label>
+      <input id="courseID" type="text">
+    </div>
+    <span id="courseIDspan"></span>
+    <div class="row">
+      <label>Name</label>
+      <input id="name" type="text">
+    </div>
+    <span id="namespan"></span>
+    <div class="row">
+      <label>Description</label>
+      <input id="description" type="text">
+    </div>
+    <span id="descriptionspan"></span>
+    <div class="row">
+      <input type="button" class="canceleditcourse" value="Cancel"></input>
+      <input type="button" class="deleteeditcourse" value="Delete"></input>
+      <input type="button" class="updateeditcourse" value="Update"></input>
+    </div>
+  </div>
+  
+  <script src="editcourse.js" type="module"></script>
+
+</body>
+</html>

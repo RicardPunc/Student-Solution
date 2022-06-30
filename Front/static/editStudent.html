@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="/">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student API</title>
+
+  <script
+			  src="https://code.jquery.com/jquery-3.6.0.min.js"
+			  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+			  crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <div class="editstudent">
+    <label class="windowheader">Edit Student</label>
+    <div class="row">
+      <label>First Name</label>
+      <input id="firstname" type="text">
+    </div>
+    <span id="firstnamespan"></span>
+    <div class="row">
+      <label>Last Name</label>
+      <input id="lastname" type="text">
+    </div>
+    <span id="lastnamespan"></span>
+    <div class="row">
+      <label>Address</label>
+      <input id="address" type="text">
+    </div>
+    <span id="addressspan"></span>
+    <div class="row">
+      <label>City</label>
+      <input id="city" type="text">
+    </div>
+    <span id="cityspan"></span>
+    <div class="row">
+      <label>State</label>
+      <input id="state" type="text">
+    </div>
+    <span id="statespan"></span>
+    <div class="row">
+      <label>Date Of Birth</label>
+      <input id="dateofbirth" type="date">
+    </div>
+    <div class="row">
+      <input type="button" class="canceleditstudent" value="Cancel"></input>
+      <input type="button" class="deleteeditstudent" value="Delete"></input>
+      <input type="button" class="updateeditstudent" value="Update"></input>
+    </div>
+  </div>
+  
+  <script src="editstudent.js" type="module"></script>
+
+</body>
+</html>
